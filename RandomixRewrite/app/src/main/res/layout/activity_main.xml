@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#DEDED6"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Welcome to the Randomix"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/share_location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true"
+        android:text="Share current location"
+        android:backgroundTint="#007AFF"
+        android:textColor="@android:color/white"
+        android:onClick="shareLocation" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/Simplified"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="660dp"
+        android:text="Simplified version"
+        android:textColor="#AAAA"
+        android:textStyle="bold"
+        >
+
+
+    </Button>
+
+</RelativeLayout>

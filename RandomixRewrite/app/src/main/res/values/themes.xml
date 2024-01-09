@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Цвет шапки приложения -->
+        <item name="colorPrimary">#DEDED6</item>
+        <!-- Цвет текста и значков в шапке приложения -->
+        <item name="colorPrimaryDark">#DEDED6</item>
+        <!-- Цвет фона в шапке приложения -->
+        <item name="colorAccent">#DEDED6</item>
+    </style>
+</resources>
